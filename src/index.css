@@ -27,7 +27,7 @@ h1 {
 /* Navbar */
 .navbar {
   width: 100%;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(17, 17, 17);
   color: white;
   height: 3rem;
   position: sticky;
@@ -42,11 +42,6 @@ h1 {
   z-index: 2;
 }
 
-/* .navbar-left {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-} */
 .navbar.highlight {
   background-color: rgb(73, 0, 0);
   transition: all 0.5s ease;
@@ -159,6 +154,13 @@ h1 {
   height: auto;
 }
 
+.element-detail-image-box {
+  width:50rem;
+  height:12rem;
+  background-color: rgb(11, 11, 11);
+  border-radius: 0.5rem;
+}
+
 /* Video detail */
 .container-video-detail {
   display: flex;
@@ -169,15 +171,13 @@ h1 {
   color:white;
   margin:0;
   padding: 2rem 2rem;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px; */
 }
 
 .data-detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin: 2rem 5rem;
 }
 
 .video-detail .title-detail h1{
@@ -203,23 +203,31 @@ h1 {
 }
 
 .data-image-detail{
-  margin: 1.5rem;
+  margin: 1.5rem 0.5rem;
 }
 
 .data-others{
-  padding: 0rem 1.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.image-detail {
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
 }
 
 /* Input search */
 
 .input-search{
   margin-right: 5rem;
-  padding: 0.55rem;
+  padding: 0.55rem 0.85rem;
   width: 15rem;
-  background-color: rgba(251, 251, 251, 0.813);
+  background-color: rgba(44, 44, 44, 0.813);
   border-radius: 2rem;
-  outline: 0;
-  border: 0;
+  outline:0;
+  border:0;
+  font-size: 1rem;
+  color: rgb(193, 193, 193);
 }
 
 
@@ -242,7 +250,7 @@ h1 {
   .input-search{
     padding: 0.55rem;
     width: 10rem;
-    background-color: rgba(251, 251, 251, 0.813);
+    background-color: rgba(44, 44, 44, 0.813);
     border-radius: 2rem;
     outline: 0;
     border: 0;
